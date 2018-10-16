@@ -31,7 +31,6 @@ public class SparkDemo01 {
 
 
 
-		spark.Spark.get("/hello", (req, res) -> "<b>Hello World!</b>\n");
 
 		spark.Spark.get("/nihao", (req, res) -> "<b>Ni Hao</b>\n");
 
